@@ -28,7 +28,7 @@ https://cdn.jsdelivr.net/gh/siva-shimizu/prefecture-data@main/prefectures.json
 
 ```javascript
 async function fetchPrefectureData() {
-  const response = await fetch('https://cdn.jsdelivr.net/gh/siva-shimizu/prefecture-data@main/prefectures.json');
+  const response = await fetch('https://cdn.jsdelivr.net/gh/siva-shimizu/prefecture-data@main/prefectures_v2.json');
   const data = await response.json();
   return data;
 }
